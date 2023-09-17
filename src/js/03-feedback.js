@@ -1,4 +1,4 @@
-import { throttle } from 'lodash.throttle';
+let throttle = require('lodash.throttle');
 const form = document.querySelector('.feedback-form')
 const email = document.querySelector('input[name="email"]')
 const message = document.querySelector('textarea[name="message"]')
